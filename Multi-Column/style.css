@@ -8,6 +8,7 @@ font-family: "Poppins", sans-serif;;
 
 h2, h3{
     color: #767f7e;
+    text-decoration: underline;
 }
 
 p{
@@ -51,7 +52,7 @@ article p, article h3{
 }
 
 /* Responsive Design */
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 900px){
     article{
         grid-column: span 3;
         display: grid;
@@ -59,4 +60,16 @@ article p, article h3{
         align-items: center;
         gap: 30px;
     }
+}
+
+@media screen and (max-width: 600px){
+article, article.featured{
+    display: block;
+    margin: 0 20px;
+}
+
+header{
+    font-size: 21px;
+    margin-left: 12px;
+}
 }
