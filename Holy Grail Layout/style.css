@@ -58,7 +58,10 @@ aside{
 footer{
     grid-column: span 3;
     text-align: center;
-    /* background-color: #777; */
+    background-color: #777;
     border-top: 2px solid #ddd;
     padding: 30px;
 }
+
+
+    
